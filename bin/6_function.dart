@@ -1,3 +1,4 @@
+// menampilkan segitiga (*)
 import 'dart:io';
 
 segitiga(int i, int j, int k) {
