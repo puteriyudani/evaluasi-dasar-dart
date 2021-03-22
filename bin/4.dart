@@ -9,9 +9,11 @@ void main(List<String> arguments) {
   print("Kelipatan 3 : ");
   do {
     if (awal % 3 == 0) {
-      print(awal);
+      stdout.write(awal.toString() + " ");
     }
 
     awal = awal + 1;
   } while (awal <= akhir);
+
+  stdout.write("\n");
 }
